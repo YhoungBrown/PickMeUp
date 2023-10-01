@@ -17,10 +17,9 @@ const dispatch = useDispatch();
     <SafeAreaView style={[tw`bg-white h-full`,{marginTop: StatusBar.currentHeight}]}>
       <View style={tw`p-5`}>
         <Image
-        style={{width: 100, height: 100, resizeMode: 'contain'}} 
-            source={{
-                uri: "https://links.papareact.com/gzs"
-            }}
+        style={{width: 110, height: 110, resizeMode: 'contain'}} 
+            source={
+                require("../assets/PickMeUp.png")}
         />
 
         <GooglePlacesAutocomplete 
